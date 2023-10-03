@@ -7,7 +7,7 @@
 
 [rewrite_local]
 #纯会员数据共享
-^https://newdrugs.dxy.cn url script-request-header https://github.com/Akanezero/CKScripts/blob/main/yyzsck.js
+^https://newdrugs.dxy.cn url script-request-header https://raw.githubusercontent.com/Akanezero/CKScripts/blob/main/yyzsck.js
 #修改个人用户信息
 ^https://newdrugs.dxy.cn url script-response-body https://raw.githubusercontent.com/Yu9191/Rewrite/main/yyzs2.js
 
